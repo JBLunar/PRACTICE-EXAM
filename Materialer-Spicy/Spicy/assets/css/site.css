@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200;400;600&display=swap');
+
+:root {
+    --gray: #333333;
+    --black: #000000;
+    --red: #c82113;
+    --darkred: #94180e;
+    --lightblue: #1085df;
+    --darkblue: #0e5a94;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header img:first-child {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+header img:last-child {
+    z-index: 2;
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+nav li {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--lightblue);
+    transition: 0.5s;
+}
+
+h1{
+    margin-bottom: 0px;
+    color: var(--red);
+    font-family: 'Bebas Neue';
+}
+
+h2 {
+    color: var(--lightblue);
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
+
+P{
+    color: var(--gray);
+    font-family: 'Sofia Sans Condensed';
+}
+
+#om-spicy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#galleri article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+
+#galleri article img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+#article3 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+#favorit {
+    display: flex;
+}
+
+#article3 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    
+}
+
+#article3 #choose1 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+
+}
+
+footer {
+    background-color: var(--gray);
+    width: 100%;
+    height: 500px;
+}
+
+#kontaktinfo{
+
+}
